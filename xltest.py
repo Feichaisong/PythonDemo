@@ -8,6 +8,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+
+# a test for git
 # location = raw_input("输入mdb数据库文件，如F:/learn/2014p.mdb ")
 # out_path = raw_input("输入保存文件路径，如F:/learn ")
 location = GP.GetParameterAsText(0)
@@ -62,6 +64,7 @@ def write_dlmc_row():
     # worksheet.write_row('AA3', ['交通运输用地'])
     # worksheet.write_row('AH3', ['水域及水利设施用地'])
     # worksheet.write_row('AR3', ['其他用地'])
+	
 
 
 def write_row_bm(row_bm):
